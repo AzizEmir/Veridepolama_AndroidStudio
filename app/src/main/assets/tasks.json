@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "task": "Örnek görev 1",
+    "status": 0
+  },
+  {
+    "id": 2,
+    "task": "Örnek görev 2",
+    "status": 1
+  }
+]

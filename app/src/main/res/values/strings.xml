@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="morpheus_sozu">Sana sadece butonları gösterebilirim.</string>
+    <string name="morpheus_sozu2">Tıklamak ise sana kalmış.</string>
+    <string name="save">Kaydet</string>
+    <string name="new_task">New Task</string>
+    <string name="tasks">Görevler</string>
+    <string name="todo">TODO</string>
+</resources>

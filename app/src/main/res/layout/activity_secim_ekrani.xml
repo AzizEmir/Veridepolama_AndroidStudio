@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecimEkraniActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/morpheus_secim2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/uzakVeritabani"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cmatrix1_alternatif"
+        android:fontFamily="@font/matrix"
+        android:text="uzak veritabani"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/yerelVeritabani"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cmatrix2"
+        android:fontFamily="@font/matrix"
+        android:text="yerel veritabani"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uzakVeritabani" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/yapilacakListesi"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cmatrix3"
+        android:fontFamily="@font/matrix"
+        android:text="yapilacak listesi"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yerelVeritabani" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/bruno_ace_sc_regular"
+            android:text="@string/morpheus_sozu"
+            android:textColor="#B8B8B8"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bruno_ace_sc_regular"
+            android:text="@string/morpheus_sozu2"
+            android:textColor="#B8B8B8"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
